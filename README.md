@@ -1,7 +1,7 @@
 # Friends — web version
 
 The browser version of the Friends random video chat app, live at
-**https://srv2189574.hstgr.cloud/app/**
+**https://friendstv.tech**
 
 This repo holds the **built files** only. The source code is the mobile app
 ([friends_app](https://github.com/thelllmike/friends_app)): the same React Native (Expo) code is
@@ -12,7 +12,7 @@ the camera works over HTTPS.
 ## Update the web version
 
 ```bash
-# 1. build from the mobile app (mobile/.env has EXPO_PUBLIC_API_URL=https://srv2189574.hstgr.cloud)
+# 1. build from the mobile app (mobile/.env has EXPO_PUBLIC_API_URL=https://friendstv.tech)
 cd friends/mobile
 npx expo export --platform web          # app.json: experiments.baseUrl = "/app"
 
